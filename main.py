@@ -66,8 +66,8 @@ if __name__ == '__main__':
     main_time = LogTime(words="Main Function")
     # dataset_name = 'ml-100k'
     dataset_name = 'ml-1m'
-    model_type = 'UserCF'
-    # model_type = 'UserCF-IIF'
+    # model_type = 'UserCF'
+    model_type = 'UserCF-IIF'
     # model_type = 'ItemCF'
     # model_type = 'Random'
     # model_type = 'MostPopular'
