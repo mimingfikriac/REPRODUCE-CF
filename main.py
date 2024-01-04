@@ -69,8 +69,8 @@ if __name__ == '__main__':
     # model_type = 'UserCF'
     # model_type = 'UserCF-IIF'
     # model_type = 'ItemCF'
-    model_type = 'Random'
-    # model_type = 'MostPopular'
+    # model_type = 'Random'
+    model_type = 'MostPopular'
     # model_type = 'ItemCF-IUF'
     # model_type = 'LFM'
     test_size = 0.1
