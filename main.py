@@ -64,13 +64,13 @@ def recommend_test(model, user_list):
 
 if __name__ == '__main__':
     main_time = LogTime(words="Main Function")
-    dataset_name = 'ml-100k'
-    # dataset_name = 'ml-1m'
+    # dataset_name = 'ml-100k'
+    dataset_name = 'ml-1m'
     # model_type = 'UserCF'
-    model_type = 'UserCF-IIF'
+    # model_type = 'UserCF-IIF'
     # model_type = 'ItemCF'
     # model_type = 'Random'
-    # model_type = 'MostPopular'
+    model_type = 'MostPopular'
     # model_type = 'ItemCF-IUF'
     # model_type = 'LFM'
     test_size = 0.1
